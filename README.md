@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 11 Express Homework: Note Taker
 
 ## Description
@@ -78,3 +79,11 @@ You are required to submit the following:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+=======
+# Note Taking App With Express  
+**Description**:  
+## Credits  
+* Tbonexas  
+## Portfolio  
+[My Portfolio](https://tbonexas.github.io/portfolio)  
+>>>>>>> aca295ce832075d72446cecabd27e68d8eee1c20
