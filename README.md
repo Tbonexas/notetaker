@@ -1,6 +1,6 @@
 # Note Taking App With Express  
-* Description:  
+**Description**:  
 ## Credits  
-Tbonexas  
+* Tbonexas  
 ## Portfolio  
 [My Portfolio](https://tbonexas.github.io/portfolio)  
