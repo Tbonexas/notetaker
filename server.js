@@ -48,9 +48,28 @@ app.get("/api/notes", (req,res) => {
     return res.json(dbNotes);
 });
 
+// request for posting and deleting the notes //
 
-// add app push //
+app.post('/api/notes', (req,res) => {
+    let newNote = req.body;
+    let id = dbNotes.length;
+    newNote.id = id + 1;
+    dbNotes.push(newNote);
+    dbUpdate(dbNotes);
+    return res.json(dbNotes);
+});
 
+// this deletes the notes //
+app.delete("/api/notes/:id", (req,res) => {
+    let id = req.params.id;
+    let x = 1;
+    delete dbNotes[id - 1];
+    dbUpdate(dbNotes);
+    res.send(dbNotes);
+});
+
+
+// listener to PORT 3000 *todos: change to Proccess.env when deploying to heroku//
 
 app.listen(PORT, function () {
     console.log("https://localhost:" + PORT + " is online");
