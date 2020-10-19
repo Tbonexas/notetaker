@@ -49,4 +49,5 @@ Application should allow users to delete previously saved notes.
 *HTML*    
 *Node*      
 # My Information 
-[My Portfolio](https://tbonexas.github.io/portfolio)
+*[LinkedIn]*(https://www.linkedin.com/in/todd-murdoch)  
+*[Portfolio]*(https://tbonexas.github.io/portfolio)
