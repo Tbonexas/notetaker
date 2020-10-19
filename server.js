@@ -28,12 +28,12 @@ const dbUpdate = dbNotes => {
 };
 
 // app.get requests for html pages //
-app.get("/assets/css/styles.css", (req, res) => {
+app.get("./Develop/public/assets/css/styles.css", (req, res) => {
     res.sendFile(path.join(__dirname, "./Develop/public/assets/css/styles.css"));
 });
 
-app.get("/assets/js/index.js", (req,res) => {
-    res.sendFile(path.join(__dirname, "./Develop/public/index.html"));
+app.get("./Develop/public/index.js", (req,res) => {
+    res.sendFile(path.join(__dirname, "./Develop/public/index.js"));
 });
 
 app.get("/", (req,res) => {
@@ -72,5 +72,5 @@ app.delete("/api/notes/:id", (req,res) => {
 // listener to PORT 3000 *todos: change to Proccess.env when deploying to heroku//
 
 app.listen(PORT, function () {
-    console.log("https://localhost:" + PORT + " is online");
+    console.log("https://localhost:" + PORT + " is listening");
 })
