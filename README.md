@@ -43,10 +43,10 @@ Application should allow users to delete previously saved notes.
 
   
 ## Credits  
-* Tbonexas   
-* Express.js  
-* CSS  
-* HTML  
-* Node  
-**My Information**  
-*[My Portfolio]*(https://tbonexas.github.io/portfolio)
+*Tbonexas   
+*Express.js  
+*CSS  
+*HTML  
+*Node    
+# My Information 
+[My Portfolio](https://tbonexas.github.io/portfolio)
