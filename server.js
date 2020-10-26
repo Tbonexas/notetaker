@@ -11,6 +11,8 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+app.use(express.static(__dirname + "/public"));
+
 const dbNotes = JSON.parse(
     fs.readFileSync(path.join(__dirname, "./Develop/db/db.json"), (err, data) => {
         if (err) throw err;

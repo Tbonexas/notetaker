@@ -1,0 +1,31 @@
+{
+  "name": "notetakerapp",
+  "version": "1.0.0",
+  "description": "Create a note taking app deployed to heroku",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbonexas/notetaker.git"
+  },
+  "keywords": [
+    "notes",
+    "node",
+    "express",
+    "heroku"
+  ],
+  "author": "Todd Wayment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tbonexas/notetaker/issues"
+  },
+  "homepage": "https://github.com/Tbonexas/notetaker#readme"
+}

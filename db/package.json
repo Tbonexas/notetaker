@@ -1,0 +1,30 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Create Note Taker with Express and Deploy to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todd Wayment",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbonexas/notetaker.git"
+  },
+  "keywords": [
+    "notes",
+    "office",
+    "git",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/tbonexas/notetaker/issues"
+  },
+  "homepage": "https://github.com/tbonexas/notetaker#readme"
+}
