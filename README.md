@@ -31,8 +31,9 @@ Application should allow users to view previously saved notes.
 Application should allow users to delete previously saved notes.
 
 ## Demos and Screenshots:  
-![image]  
-[Heroku Deployed]  
+![image](https://user-images.githubusercontent.com/67118229/97225238-a15e3500-178f-11eb-9e56-45d6c6fde926.png)    
+![image](https://user-images.githubusercontent.com/67118229/97225313-bd61d680-178f-11eb-8696-d92ae0e19948.png)  
+![image](https://user-images.githubusercontent.com/67118229/97225452-e4200d00-178f-11eb-9b69-564344f0be39.png)  
 [Google Drive GIFS]  
   
 ## Credits  
