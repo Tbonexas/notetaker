@@ -29,16 +29,23 @@ Application should allow users to create and save notes.
 Application should allow users to view previously saved notes.
 
 Application should allow users to delete previously saved notes.
+## Heroku Deployment:  
+[Live Site on Heroku](https://immense-basin-93125.herokuapp.com/)  
+
+## GIF Google Drive  
+[Link to demo](https://drive.google.com/file/d/1XM9FuT7A0Ab24c1qk2Doxiq3f1v-Rc3K/view)  
+
 
 ## Demos and Screenshots:  
 ![image](https://user-images.githubusercontent.com/67118229/97225238-a15e3500-178f-11eb-9e56-45d6c6fde926.png)    
 ![image](https://user-images.githubusercontent.com/67118229/97225313-bd61d680-178f-11eb-8696-d92ae0e19948.png)  
 ![image](https://user-images.githubusercontent.com/67118229/97225452-e4200d00-178f-11eb-9b69-564344f0be39.png)  
-[Google Drive GIFS](https://drive.google.com/file/d/1XM9FuT7A0Ab24c1qk2Doxiq3f1v-Rc3K/view)  
+ 
   
 ## Credits  
 *Tbonexas*     
-*Express.js*    
+*Express.js*  
+*nodemon*  
 *CSS*    
 *HTML*    
 *Node*      
